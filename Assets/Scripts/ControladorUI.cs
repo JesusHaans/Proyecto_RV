@@ -13,14 +13,9 @@ public class ControladorUI : MonoBehaviour
         UIPanel.SetActive(true);    
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void ActivarUI()
     {
+        Debug.Log("aguacate");
         if (UIPanel.activeInHierarchy)
         {
             UIPanel.SetActive (false);
