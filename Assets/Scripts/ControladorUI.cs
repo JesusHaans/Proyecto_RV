@@ -16,7 +16,7 @@ public class ControladorUI : MonoBehaviourPunCallbacks
 
     public void ActivarUI()
     {
-        Debug.Log("aguacate");
+        
         if (UIPanel.activeInHierarchy)
         {
             UIPanel.SetActive (false);
