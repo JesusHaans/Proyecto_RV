@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Photon.Pun;
 
-public class ControladorUI : MonoBehaviour
+public class ControladorUI : MonoBehaviourPunCallbacks
 {
     public GameObject UIPanel, UIBoton, Piel;
 
